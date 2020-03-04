@@ -1,3 +1,4 @@
+---
 layout: post
 title: As Utah has Become More Diverse, have Incidents of Bullying Increased?
 subtitle: Each post also has a subtitle
@@ -5,6 +6,7 @@ gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
+---
 
 ##Introduction
 I’ve seen a significant increase in the number of news articles on bullying in Utah recently. Last December, a substitute fifth grade teacher (rightfully) lost her job because she insulted a student who gave thanks to his two dads.  July of last year, a biracial boy was dragged by bus when the driver closed the door on his backpack. His mother won a suit against the school district, but not until after the bus driver cited the color of his dog as proof that he is not racist. Early this year, a lawmaker in Southern Utah filed a resolution with the sole intent of discouraging schools with racist mascots from changing them. 
