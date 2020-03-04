@@ -1,0 +1,33 @@
+layout: post
+title: As Utah has Become More Diverse, have Incidents of Bullying Increased?
+subtitle: Each post also has a subtitle
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
+
+##Introduction
+I’ve seen a significant increase in the number of news articles on bullying in Utah recently. Last December, a substitute fifth grade teacher (rightfully) lost her job because she insulted a student who gave thanks to his two dads.  July of last year, a biracial boy was dragged by bus when the driver closed the door on his backpack. His mother won a suit against the school district, but not until after the bus driver cited the color of his dog as proof that he is not racist. Early this year, a lawmaker in Southern Utah filed a resolution with the sole intent of discouraging schools with racist mascots from changing them. 
+I have to say, this has not been my experience living here. I live in perhaps the most diverse area of the state, and my autistic son attends a school where diversity is celebrated. As a white boy who only speaks English, he is a minority here. It can be easy to become inoculated from the rest of the world, or even just the rest of the state, and assume that your experiences are reflective of the greater human experience. With that in mind, I decided to investigate my state.
+I set out with three main questions:
+How has the population of Utah changed, demographically?
+Have Utah schools matched these demographic changes?
+Have the incidents of bullying changed along with the demographic changes of the state?
+
+##Population Changes
+I began my investigation by looking on census.gov for population statistics. It seemed like the last population would be a good place to start. I was able to find most of what I needed there (Utah demographics.csv), although I did supplement with a table distributed by the University of Utah in 2017 containing some estimates (RaceandEthnicity_FactSheet20170825.pdf).  
+I cleaned the data using Google Colab (colab notebook), and cut away quite a bit of data that was interesting, but not very relevant to my questions. I was left with the following data:
+
+| |	Census 2010 |	2011 |	2013 |	2015 |	2017 |	2019 |
+| :------ |:--- | :--- | :--- | :--- | :--- |
+|	Total |	2763885 |	2816124 |	2902663 |	2990632 |	3103000 |	3188160 |
+|	White |	2226363 |	2260029 |	2315395 |	2368257 |	2386098 |	2486764.8 |
+|	Hisp |	358340 |	358340 |	387701 |	407498 |	434288 |	452718.72 |
+|	Black |	26328 |	26328 |	29326 |	31088 |	43230 |	44634.24 |
+|	AIAN |	27228 |	27228 |	27853 |	28922 |	47582 |	47822.4 |
+|	Asian |	54794 |	54794 |	62993 |	69302 |	79393 |	86080.32 |
+|	Islander |	24183 |	24183 |	26208 |	27896 |	32429 |	35069.76 |
+|	Mult |	46649 |	46649 |	53187 |	57651 |	78813 |	82892.16 |
+
+The data showed me something I was already aware of: Utah is virtually homogenous. However, I was surprised by the level of homogeneity.  According to WalletHub, Utah is the 44th least diverse state in the union. Despite some minority growth over the last ten years, Utah remains about 80% White.  There has, however, been a small increase in minority populations over the last decade. Here's the data in a lovely easily digestible chart:
+![Utah Population](https://github.com/JaimieOnigkeit/Lambda-Unit-1-Build-Week/blob/master/Utah%20Pop.png)
